@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "6436b95f4c41a510117c3333",
+    "name": "Playstation 5",
+    "quantity": 150,
+    "price": 4999.99,
+    "__v": 0
+  },
+  {
+    "_id": "643727f1eaefdfe9dfb9cea1",
+    "name": "Marvel's Spiderman Miles Morales - PS5",
+    "quantity": 300,
+    "price": 89.9,
+    "__v": 0
+  },
+  {
+    "_id": "6437286feaefdfe9dfb9cea5",
+    "name": "Camiseta Xbox",
+    "quantity": 1000,
+    "price": 59.99,
+    "__v": 0
+  },
+  {
+    "_id": "643c053defbdf2e80e8b2299",
+    "name": "Macbook Air M2",
+    "quantity": 400,
+    "price": 7000,
+    "__v": 0
+  },
+  {
+    "_id": "643c0556efbdf2e80e8b229b",
+    "name": "iPhone 14",
+    "quantity": 1000,
+    "price": 6000,
+    "__v": 0
+  },
+  {
+    "_id": "643c0569efbdf2e80e8b229d",
+    "name": "iPad 10a Geração",
+    "quantity": 1000,
+    "price": 4000,
+    "__v": 0
+  },
+  {
+    "_id": "643c05dcefbdf2e80e8b229f",
+    "name": "Mouse Razer",
+    "quantity": 2000,
+    "price": 449.9,
+    "__v": 0
+  },
+  {
+    "_id": "643c05f7efbdf2e80e8b22a1",
+    "name": "HeadSet Corsair",
+    "quantity": 300,
+    "price": 699.9,
+    "__v": 0
+  },
+  {
+    "_id": "643c063cefbdf2e80e8b22a3",
+    "name": "Dragon Ball Z - Camiseta",
+    "quantity": 699,
+    "price": 39.9,
+    "__v": 0
+  },
+  {
+    "_id": "643c067eefbdf2e80e8b22a5",
+    "name": "Naruto - Camiseta",
+    "quantity": 900,
+    "price": 59.9,
+    "__v": 0
+  }
+]
