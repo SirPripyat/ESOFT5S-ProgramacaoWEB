@@ -16,3 +16,4 @@ const StockSchema = new Schema({
 })
 
 export default model('Stock', StockSchema);
+

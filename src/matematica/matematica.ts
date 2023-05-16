@@ -2,22 +2,22 @@ import { ErrorMessages } from "./matematica.enum";
 
 class Matematica {
 
-  private a : number;
-  private b : number;
+  private a : Number;
+  private b : Number;
 
-  public setA(a: number) {
+  public setA(a: Number) {
     const verify = this.verifyNumber(a);
 
     return verify === true ? this.a = a : ErrorMessages.INVALID_INPUT;
   }
 
-  public setB(b: number) {
+  public setB(b: Number) {
     const verify = this.verifyNumber(b);
 
     return verify === true ? this.b = b : ErrorMessages.INVALID_INPUT;
   }
 
-  private verifyNumber(x: number) {
+  private verifyNumber(x: Number) {
     if (typeof x === 'number') {
       return true;
     } 
@@ -40,6 +40,14 @@ class Matematica {
     return Number(this.getA()) - Number(this.getB());
   }
 
+  private multiplication() {
+    return Number(this.getA()) * Number(this.getB());
+  }
+
+  private division() {
+    return Number(this.getA()) / Number(this.getB()); 
+  }
+
   public getSum() {
     console.log(this.sum())
     return this.sum();
@@ -48,6 +56,16 @@ class Matematica {
   public getMinus() {
     console.log(this.minus())
     return this.minus();
+  }
+
+  public getMultiplication() {
+    console.log(this.multiplication());
+    return this.multiplication();
+  }
+
+  public getDivision() {
+    console.log(this.division());
+    return this.division();
   }
   
 }
